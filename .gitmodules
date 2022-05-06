@@ -4,24 +4,31 @@
 [submodule "astroport-core_factory"]
 	path = astroport-core_factory
 	url = https://github.com/astroport-fi/astroport-core
+	sparse-checkout = /contracts/factory/**
 [submodule "astroport-core_pairstable"]
 	path = astroport-core_pairstable
 	url = https://github.com/astroport-fi/astroport-core
+	sparse-checkout = /contracts/pair_stable/**
 [submodule "cw20-base"]
 	path = cw20-base
 	url = https://github.com/CosmWasm/cw-plus
+	sparse-checkout = /contracts/cw20-base/**
 [submodule "cw721-base"]
 	path = cw721-base
 	url = https://github.com/CosmWasm/cw-plus
+	sparse-checkout = /contracts/cw721-base/**
 [submodule "cw721-metadata-uri"]
 	path = cw721-metadata-uri
 	url = https://github.com/CosmWasm/cw-plus
+	sparse-checkout = /contracts/cw721-metadata-uri/**
 [submodule "johnjchang_counter"]
 	path = johnjchang_counter
 	url = https://github.com/johnjchang/smart-contract-webapp-template
+	sparse-checkout = /contracts/counter/**
 [submodule "nebula-incentives"]
 	path = nebula-incentives
 	url = https://github.com/nebula-protocol/nebula-contracts
+	sparse-checkout = /contracts/nebula-incentives/**
 [submodule "query-contract"]
 	path = query-contract
 	url = https://github.com/moonmidas/query-contract
@@ -34,6 +41,8 @@
 [submodule "steak-contracts_hub"]
 	path = steak-contracts_hub
 	url = https://github.com/st4k3h0us3/steak-contracts
+	sparse-checkout = /contracts/hub/**
 [submodule "white-whale_peg-arb"]
 	path = white-whale_peg-arb
 	url = https://github.com/White-Whale-Defi-Platform/contracts
+	sparse-checkout = /contracts/peg-arb/**
