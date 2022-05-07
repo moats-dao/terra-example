@@ -46,3 +46,6 @@
 	path = white-whale_peg-arb
 	url = https://github.com/White-Whale-Defi-Platform/contracts
 	sparse-checkout = /contracts/peg-arb/**
+[submodule "terra_anchor_manager"]
+	path = terra_anchor_manager
+	url = https://github.com/alenzer/terra_anchor_manager
