@@ -1,4 +1,6 @@
 #!/bin/sh
+# https://gist.github.com/AndrianBdn/ae8cedaec5a5df30fdbf
+# http://blog.davidecoppola.com/2015/02/how-to-create-git-submodule-from-repository-subdirectory/
 #
 # This script can clone/checkout a single folder from git repository 
 # - Might be used for checking out micro-services from monolithic git repository
